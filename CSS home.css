@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 80%;
+    height: 80%;
+    display: flex;
+    align-items:center;
+    
+} 
+#font{
+    font-family: 'Metal Mania';
+    font-size: 52px;
+}
+#show_list{
+    background-color: orange;
+    color: black;
+    font-weight: bold;
+}
+#Sfont{
+    font-size: 35px;
+}
+#text{
+    margin-left: 25%;
+    font-size: larger;
+}
+legend{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+#slash{
+    color: brown;
+}
+#test{
+    margin-left: 25%;
+}
+#button_all_courses{
+    margin-left: 45%;
+    margin-top: 10px;
+    border: 2px solid brown;
+    background-color: brown;
+    color: whitesmoke;
+    width: 150px;
+    height: 50px;
+    border-radius: 8px;
+    padding-top: 10 10 10 10px;
+}

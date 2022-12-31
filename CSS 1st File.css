@@ -1,0 +1,71 @@
+#User{
+    align-items: center;
+    text-align: center;
+}
+.Label{
+    display: block;
+    text-align:center;
+    align-items: center;
+    
+}
+#bghome{
+    height: 800px;
+}
+
+#confirmation{
+    margin-bottom: 9px;
+}
+.group{
+    width: 450px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#validation{
+    margin-top: 10px;
+    width: 450px;
+}
+.form-field {
+    margin-bottom: 5px;
+
+}
+
+.form-field label {
+    display: block;
+    color: #777;
+    margin-bottom: 5px;
+}
+
+.form-field input {
+    border: solid 2px #f0f0f0;
+    border-radius: 3px;
+    padding: 10px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    display: block;
+    width: 100%;
+}
+
+.form-field input:focus {
+    outline: none;
+}
+
+.form-field.error input {
+    border-color: red;
+}
+
+.form-field.success input {
+    border-color: green;
+}
+
+
+.form-field small {
+    color: rebeccapurple;
+}
+#blackd{
+    background-color: blue;
+    opacity: 0.33;
+    width: 600px;
+}
+#form{
+    background-color: rgba(248, 247, 216, 0.7);
+}
